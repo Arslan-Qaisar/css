@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        li{
+            display: inline;
+            margin: 0px 10px;
+        }
+        nav{
+            background-color: navy;
+            color: white;
+            height: 10vh;
+            text-align: center;
+            position: sticky;
+            top: 0px;
+        }
+        .list{
+            padding-top: 20px;
+        }
+        .container{
+            background-color: aqua;
+            text-align: center;
+            width: 50vw;
+            height: 3324px;
+            margin: auto;
+            z-index: 3;
+        }
+        .box{
+            background-color: blueviolet;
+            width: 200px;
+            height: 200px;
+            /* position: relative; */
+            /* top: 30px;
+            left: 40px; */
+            position: fixed;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <ul class="list">
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt animi earum dignissimos, sint dolorem nemo quaerat iste recusandae alias itaque voluptatibus amet esse harum repellat similique odit aut dolor rem?</p>
+        <div class="box">Hi there i am a box</div>
+    </div>
+    
+</body>
+</html>

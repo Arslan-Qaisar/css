@@ -1,0 +1,17 @@
+#first{
+    background-color: aquamarine;
+}
+#second{
+    background-color: blueviolet;
+}
+#third{
+    background-color: bisque;
+}
+.red{
+    background-color: red;
+}
+body{
+    background-color: yellowgreen;
+    padding: 0%;
+    margin: 0%;
+}

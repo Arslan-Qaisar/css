@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+
+        .container{
+            width: 324px;
+            height: 322px;
+            background-color: red;
+            margin: 2px 4px ; 
+            padding: 14px;
+            border: 5px groove blue ;
+            border-radius: 50px;
+        }
+        
+        .m1{
+            margin: 30px;
+        }
+        .m2{
+            margin: 30px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae reprehenderit hic voluptates cupiditate molestiae, voluptatem minima sapiente nihil quaerat nemo omnis dolorem facilis eius est ducimus laudantium facere laborum, consectetur aliquid. Dolorum, magnam?</p>
+    </div>
+
+
+
+
+    <div class="m1">
+        <p>Now we are going to learn the margin collaspe topic so let's get started... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, reiciendis nemo dicta aperiam nam perferendis nobis, necessitatibus soluta doloremque officiis ullam tempora ad quae odit repellendus incidunt. Tempore dignissimos sapiente dolor sint sed.</p>
+    </div>
+
+    <div class="m2">
+        <p>Now we are going to learn the margin collaspe topic so let's get started... Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae, reiciendis nemo dicta aperiam nam perferendis nobis, necessitatibus soluta doloremque officiis ullam tempora ad quae odit repellendus incidunt. Tempore dignissimos sapiente dolor sint sed.</p>
+    </div>
+
+    
+</body>
+</html>
