@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            background-color: red;
+            height: 59vh;
+            color: white;
+        }
+        .box{
+            border: 2px solid black;
+            display: inline-block;
+            /* transform: translate(30px, 30px) rotate(34deg); */
+            /* transform-origin: 0;   */
+            /* transform: scale(3,4); */
+            /* transform: scaleX(4); */
+            /* transform: scaleY(5); */
+            /* transform: skew(20deg, 20deg); */
+            /* transform: rotateX('39deg');
+            transform: rotateY('39deg');
+            transform: rotateZ('39deg'); */
+        }
+        img:hover{
+            width: 35vw;
+            height: 50vh;
+        }
+        img{
+            width: 445px;
+            height: 445px;
+            /* transition-property: width;
+            transition-duration: 1s;
+            transition-timing-function: ease-in;
+            transition-delay: 2s; */
+            transition: width 2s ease-in-out 1s , height 3s ease-out 1s;
+            /* transition delay is optional */
+        }
+    </style>
+</head>
+<body>
+    <!-- //transform  -->
+    <div class="container">
+        <div class="box">
+            <img src="https://source.unsplash.com/user/erondu/300x150"  alt="">
+        </div>
+        
+
+    </div>
+    
+</body>
+</html>

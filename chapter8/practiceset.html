@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice set</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .progress{
+            background-color: red;
+            height: 0.3vh;
+            width: 0vw;
+            /* animation: BarAnimation 2s ease-in-out 1 ; */
+
+            
+        }
+        header{
+            height: 10vh;
+            width: 98.7vw;
+            background-color: black;
+        }
+        .container{
+            background-color: aqua;
+            height: 90vh;
+            width: 98.7vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        img{
+            animation: rotate 3s ease-in-out 3 ;
+            border-radius: 100px;
+        }
+        @keyframes rotate {
+            0%{transform: rotate(0deg)}
+            100%{transform: rotate(360deg)}
+        }
+        @keyframes BarAnimation {
+            from{
+                width: 0vw;
+            }
+            to{
+                width: 100vw;
+            }
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="progress"></div>
+    <header></header>
+    <div class="container">
+        <img src="https://source.unsplash.com/user/erondu/300x250" alt="">
+    </div>
+</body>
+</html>
