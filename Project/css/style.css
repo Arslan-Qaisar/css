@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+:root {
+    --main-bg-color: black;
+   }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: var(--main-bg-color);
+    color: white;
+  }
+  nav{
+    display: flex;
+    justify-content: flex-start;
+  }
+  nav img{
+    width: 100px;
+    padding: 0 0 0 3vw;
+  }
+  .search{
+    display: flex;
+    align-items: center;
+  }
+  .search input{    
+    width: 30vw;
+    height: 5vh;
+    display: block;
+    margin: 0 1vh 0 4vh;
+    border-radius: 10px;
+    text-align: center;
+  }
+  nav ul li{
+    list-style: none;
+    padding: 0 2vw;
+    
+  }
+  nav ul li a{
+    text-decoration: none;
+    color: white;
+  }
+  nav ul li a:hover{
+    font-weight: bolder;
+    cursor: pointer;
+    color: blue;
+  }
+  nav ul{
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    }
+
+
+
+/* main styling starts from here */
+
+.container{
+    min-height: calc(100vh - 10vh - 10vh);
+}
+.slider{
+  margin: auto;
+  width: 80vw;
+  
+
+}
+
+
+
+
+/* footer styling */
+footer{
+        height: 10vh;
+        background-color: var(--main-bg-color);
+        color: white;
+        font-family: "Caveat", cursive;
+        font-optical-sizing: auto;
+        font-weight: bolder;
+    }

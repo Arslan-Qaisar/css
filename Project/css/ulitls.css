@@ -1,0 +1,18 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    padding: 1.5vh;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+    border: 1px solid white;
+}
+.btn:hover{
+    cursor: pointer;
+    color: blue;
+}
