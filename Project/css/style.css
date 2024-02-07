@@ -9,10 +9,14 @@
 header{
     background-color: var(--main-bg-color);
     color: white;
+    overflow: hidden;
   }
   nav{
     display: flex;
     justify-content: flex-start;
+  }
+  .logo{
+    padding-top: 7px;
   }
   nav img{
     width: 100px;
@@ -48,6 +52,7 @@ header{
     display: flex;
     align-items: center;
     height: 10vh;
+    padding-top: 4px 
     }
 
 
@@ -59,14 +64,13 @@ header{
 }
 .slider{
   margin: auto;
-  width: 90vw;
+  width: 80vw;
   display: flex;
   overflow: hidden; 
-
 }
 .slider img{
   height: 60vh;
-  width: 90vw;
+  width: 80vw;
   flex: 0 0 auto;
   margin-top: 2vh;
   animation: slide 12s infinite;
@@ -90,6 +94,46 @@ header{
   }
 }
 
+
+.cards{
+  width: 92vw;
+  margin: 5px auto 5px auto;
+}
+.card{
+  display: flex;
+  
+}
+.cards h2{
+  margin: 5vh 0;
+  font-size: xx-large;
+}
+.card-item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 16vw;
+    background-color: lightgray;
+    
+}
+.card-item img{
+  padding-top: 15px;
+  height: 30vh;
+  width: 13vw;
+}
+.lines{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    font-weight: bold;
+}
+.lines p{
+  padding: 2px;
+}
+main{
+  background-color: rgba(153, 150, 150, 0.961);
+}
 
 /* footer styling */
 footer{
